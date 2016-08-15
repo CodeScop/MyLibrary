@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  book_title: MyString
+  author: MyString
+  genre: MyString
+  reading_level: 9.99
+  number_of_pages: 1
+  copyrighted: 1
+  publisher: MyString
+  summary: MyText
+
+two:
+  book_title: MyString
+  author: MyString
+  genre: MyString
+  reading_level: 9.99
+  number_of_pages: 1
+  copyrighted: 1
+  publisher: MyString
+  summary: MyText
