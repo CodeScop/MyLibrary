@@ -1,13 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Book title:</strong>
-  <%= @book.book_title %>
-</p>
+<h1><%= @book.book_title %></h1>
 
-<p>
-  <strong>Author:</strong>
-  <%= @book.author %>
+<h2>By <%= @book.author %></h2>
+<br>
+<br>
+<p class="well center-it">
+  <strong>Summary:</strong>
+  <%= @book.summary %>
 </p>
 
 <p>
@@ -26,19 +26,11 @@
 </p>
 
 <p>
-  <strong>Copyrighted:</strong>
-  <%= @book.copyrighted %>
+  <strong>Published:</strong>
+  <%= @book.publisher %>: <%= @book.copyrighted %>
 </p>
 
-<p>
-  <strong>Publisher:</strong>
-  <%= @book.publisher %>
-</p>
 
-<p>
-  <strong>Summary:</strong>
-  <%= @book.summary %>
-</p>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
-<%= link_to 'Back', books_path %>
+<%= link_to 'All Books', books_path %>
